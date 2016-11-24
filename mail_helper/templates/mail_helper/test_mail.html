@@ -1,0 +1,13 @@
+{% load i18n %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{{_("tMSG001")}}</title>
+    </head>
+    <body>
+        {% blocktrans with VAR1=var1 VAR2=var2 %}tMSG002 {{VAR1}} {{VAR2}}{% endblocktrans %}
+    </body>
+</html>
