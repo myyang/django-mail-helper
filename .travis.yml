@@ -11,7 +11,8 @@ env:
 install:
   - make install
 
-script: make test
+script:
+    make test
 
 after_success:
   coveralls
